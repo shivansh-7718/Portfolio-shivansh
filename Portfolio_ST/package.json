@@ -1,11 +1,15 @@
+
 {
   "name": "portfolio-st",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://shivansh-7718.github.io/Portfolio-shivansh",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -31,3 +35,4 @@
     "vite": "^5.4.1"
   }
 }
+
